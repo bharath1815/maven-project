@@ -7,7 +7,7 @@ import hudson.plugins.git.*
         }
         stage('Clean Maven') {
             steps {
-                sh "mvn clean"
+                sh "clean package"
             }
 
         }
