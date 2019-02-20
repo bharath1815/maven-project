@@ -6,8 +6,6 @@ import hudson.plugins.git.*
             echo "Hello World"
         }
         stage('compile') {
-      steps {
         sh 'mvn clean install'
       }
-    }
     }
