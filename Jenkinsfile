@@ -6,7 +6,7 @@ import hudson.plugins.git.*
             echo "Hello World"
         }
         stage('Clean Maven') {
-                sh "clean package"
+                sh "mvn clean"
 
         }
     }
