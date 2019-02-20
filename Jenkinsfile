@@ -5,6 +5,10 @@ import hudson.plugins.git.*
         stage('HelloWorld') {
             echo "Hello World"
         }
+        stage('Clean Maven') {
+            steps {
+                sh "mvn clean"
+            }
 
-
+        }
     }
