@@ -8,5 +8,3 @@ import hudson.plugins.git.*
 
 
     }
-
-}
